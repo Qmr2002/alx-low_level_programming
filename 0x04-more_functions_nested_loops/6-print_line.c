@@ -11,10 +11,10 @@ void print_line(int n)
 	int lnchr;
 
 	if (n <= 0)
-           	_putchar('\n');
+		_putchar('\n');
 	else
-          {
-                    for (inchr = 1; inchr <= n; inchr++)
-                   -putchar('_';
-	_putchar('\n');
-}
+	{
+for (inchr = 1; inchr <= n; inchr++)
+-putchar('_');
+_putchar('\n');
+	}
