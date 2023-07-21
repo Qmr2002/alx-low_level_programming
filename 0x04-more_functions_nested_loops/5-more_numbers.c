@@ -1,21 +1,25 @@
 #include "main.h"
 
 /**
- * Print_most_numbers - prints 0 - 9 apart
- *	              from 2 and 4 and you can
- *		    only use _putchar twice
- *Return: Always 0 (success)
-*/
+ * more_numbers - Print 0 - 14 ten times and you
+ */
 
-void print_most_numbers(void)
+void more_numbers(void)
 {
-	int num;
+	int num, row, count;
 
-	for (num = 0; num <= 9; num++)
+	for (row = 1; row <= 10; row++)
 	{
-		if (num == 2 || num == 4)
-			continue;
+		for (count = 0; count <= 14; count++)
+		{
+			num = count;
+			if (count > 9)
+			{
+				_putchar(1 + 48);
+				num = count % 10;
+			}
 			_putchar(num + 48);
 		}
 		_putchar('\n');
+	}
 }
