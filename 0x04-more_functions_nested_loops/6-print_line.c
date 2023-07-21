@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_line - Draws a straight line using the character _.
@@ -6,11 +6,11 @@
  */
 void print_line(int n)
 {
-	int len;
+	int y;
 
 	if (n > 0)
 	{
-		for (len = 0; len < n; len++)
+		for (y = 0; y < n; y++)
 			_putchar('_');
 	}
 
