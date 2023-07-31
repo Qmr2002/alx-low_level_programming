@@ -53,3 +53,11 @@ Prototype: void print_diagsums(int *a, int size);
 Format: see example
 You are allowed to use the standard library
 Note that in the following example we are casting an int[][] into an int*. This is not something you should do. The goal here is to make sure you understand how an array of array is stored in memory.
+
+8. Double pointer, double fun
+#advanced
+Write a function that sets the value of a pointer to a char.
+
+9. My primary goal of hacking was the intellectual curiosity, the seduction of adventure
+#advanced
+Create a file that contains the password for the crackme2 executable.
